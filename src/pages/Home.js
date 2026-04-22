@@ -13,7 +13,7 @@ function Home() {
       <section className="hero">
         <div className="hero-bg-text">ARUSHI</div>
         <div className="hero-content">
-          <p className="hero-pre">Electronics & Computer Science</p>
+          <p className="hero-pre">Computer Science</p>
           <h1 className="hero-name">
             Arushi<br />
             <span className="hero-last">Khethavath</span>
@@ -37,7 +37,7 @@ function Home() {
           </div>
           <div className="col-right">
             <p>
-              I'm a final-year <strong>Electronics &amp; Computer Science</strong> undergraduate passionate
+              I'm a third-year <strong>Computer Science</strong> undergraduate passionate
               about turning raw data into actionable intelligence. My work spans predictive maintenance,
               conversational AI, and scalable data pipelines.
             </p>
