@@ -1,0 +1,65 @@
+.navbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 60px;
+  transition: background var(--transition), padding var(--transition), border-color var(--transition);
+  border-bottom: 1px solid transparent;
+}
+
+.navbar.scrolled {
+  background: rgba(13,13,13,0.92);
+  backdrop-filter: blur(14px);
+  padding: 14px 60px;
+  border-bottom-color: var(--border);
+}
+
+.nav-brand {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+
+.nav-brand .dot { color: var(--accent); }
+
+.nav-links { display: flex; gap: 36px; }
+
+.nav-link {
+  font-size: 0.82rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  position: relative;
+  transition: color var(--transition);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0; right: 0;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent);
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@media (max-width: 600px) {
+  .navbar, .navbar.scrolled { padding: 16px 24px; }
+}
