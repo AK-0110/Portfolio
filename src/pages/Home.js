@@ -59,15 +59,15 @@ function Home() {
               </div>
               <div className="detail-item">
                 <span className="detail-label">Email</span>
-                <span className="detail-value">arushi@example.com</span>
+                <span className="detail-value">khethavatharushi@gmail.com</span>
               </div>
               <div className="detail-item">
                 <span className="detail-label">College Email</span>
-                <span className="detail-value">arushi@college.edu</span>
+                <span className="detail-value">se23ucse031@mahindrauniversity.edu.in</span>
               </div>
               <div className="detail-item">
                 <span className="detail-label">Phone</span>
-                <span className="detail-value">+91 XXXXX XXXXX</span>
+                <span className="detail-value">+91 7569279322</span>
               </div>
             </div>
           </div>
