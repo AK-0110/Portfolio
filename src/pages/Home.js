@@ -13,6 +13,7 @@ function Home() {
       <section className="hero">
         <div className="hero-bg-text">ARUSHI</div>
         <div className="hero-content">
+          <img src="/portfolio/profile.jpg" alt="Arushi Khethavath" className="hero-img" />
           <p className="hero-pre">Computer Science</p>
           <h1 className="hero-name">
             Arushi<br />
