@@ -2,9 +2,16 @@ import React from 'react';
 import './Home.css';
 
 const skills = [
-  'Python', 'Machine Learning', 'Data Analytics',
-  'React', 'SQL', 'TensorFlow', 'scikit-learn',
-  'FAISS', 'C', 'Java', 'Big Data', 'NLP',
+  'Python + NumPy + Pandas',
+  'scikit-learn',
+  'PyTorch',
+  'Matplotlib / Seaborn',
+  'FastAPI',
+  'MySQL',
+  'Git + GitHub',
+  'C',
+  'Java',
+  'NLP',
 ];
 
 function Home() {
@@ -19,9 +26,6 @@ function Home() {
             Arushi<br />
             <span className="hero-last">Khethavath</span>
           </h1>
-          <p className="hero-tagline">
-            Data Scientist · ML Engineer · Future Founder
-          </p>
           <div className="hero-cta">
             <a href="mailto:arushi@example.com" className="btn-primary">Get In Touch</a>
             <a href="https://github.com/AK-0110" target="_blank" rel="noreferrer" className="btn-ghost">GitHub ↗</a>
@@ -43,13 +47,7 @@ function Home() {
               conversational AI, and scalable data pipelines.
             </p>
             <p style={{ marginTop: '1rem' }}>
-              Growing up watching my father navigate technology sales taught me that the best
-              engineering solutions are worthless without clear communication — a principle I carry
-              into every project.
-            </p>
-            <p style={{ marginTop: '1rem' }}>
-              I'm actively applying for <strong>MS programs in Data Analytics & ML</strong> abroad,
-              with a long-term goal of building a startup at the intersection of AI and enterprise software.
+              I'm driven by the idea that technology should create meaningful impact, not just exist as an exercise in complexity. This drives my interest in Artificial Intelligence and Machine Learning, where I focus on building intelligent systems that solve real-world problems. I focus on developing end-to-end solutions that span data processing through deployment, working with real datasets and continuously improving model performance.
             </p>
 
             <div className="details-grid">
@@ -117,5 +115,7 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
 
 export default Home;
